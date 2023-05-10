@@ -18,7 +18,7 @@ public class MailUtiles {
         mailSender.setPort(587);
         mailSender.setProtocol("smtp");
         mailSender.setUsername(MailConstant.MailFrom);
-        mailSender.setPassword("kjcsfswrzkkudbii");
+        mailSender.setPassword("邮箱验证码");
         mailSender.setDefaultEncoding("UTF-8");
         Properties p = new Properties();
         p.setProperty("mail.smtp.timeout", String.valueOf(35000));
