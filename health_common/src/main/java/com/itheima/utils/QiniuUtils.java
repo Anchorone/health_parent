@@ -18,8 +18,8 @@ import java.io.InputStream;
  * 七牛云工具类
  */
 public class QiniuUtils {
-    public  static String accessKey = "qmlc_ugd7y3AkjlrIvZs5r92q2BMFgRhjk7p7Xza";
-    public  static String secretKey = "u4J_0epDpJnRcQqvj46Hv-Iia1XJI2MO4OJ4BGBM";
+    public  static String accessKey = "***";
+    public  static String secretKey = "***";
     public  static String bucket = "healthspace-zx";
 
     public static void upload2Qiniu(String filePath,String fileName){
